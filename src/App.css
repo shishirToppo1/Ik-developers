@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+.text-35-700 {
+  font-size: 35px;
+  line-height: 55px;
+  font-weight: 700;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -1,7 +1,7 @@
 import {AppBar, Box, Button, Stack, styled, Typography} from "@mui/material"
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import { Gradient } from "@mui/icons-material";
-import Image from "../Images/Logo.png"
+
 
 import React from 'react'
 
@@ -34,7 +34,7 @@ const Appbar = () => {
 
                 }}>
                     {/* <AcUnitIcon sx={{color: 'black',paddingLeft: '20px'}}/> */}
-                    <Typography variant="body1" sx={{ paddingLeft: '20px' }}><img src={Image} /></Typography>
+                    <Typography variant="body1" sx={{ paddingLeft: '20px' }}><img src={"./Logo.png"} /></Typography>
                     <Typography variant="body1" sx={{ color: 'black', paddingLeft: '20px', fontFamily: 'Inspiration' }}>Ik developers</Typography>
                 </Box>
 
@@ -45,11 +45,11 @@ const Appbar = () => {
                     alignItems: 'center',
                     gap: '30px'
                 }}>
-                    <ColorText variant="body1">About us</ColorText>
+                    <ColorText variant="body1">About Us</ColorText>
                     <ColorText variant="body1">Services</ColorText>
                     <ColorText variant="body1">Case Studies</ColorText>
                     <ColorText variant="body1">Blog</ColorText>
-                    <ColorText variant="body1">How it Works</ColorText>
+                    <ColorText variant="body1">How It Works</ColorText>
                     <ColorText variant="body1">Hire</ColorText>
 
                 </Box>

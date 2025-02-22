@@ -1,8 +1,6 @@
 import React from 'react';
 import { Box, Typography, Button, Container } from '@mui/material';
-import Image from "../Images/image1.png"
-import Image1 from "../Images/Ellipse 180.png"
-import PurpleCircle from '../components/PurpleCircle';
+import PurpleCircle from './PurpleCircle';
 
 function HeroSection() {
   return (
@@ -43,7 +41,7 @@ function HeroSection() {
             Let's get started!
           </Button>
         </Box>
-        <Typography variant='img' component="img" src={Image} />
+        <Typography variant='img' component="img" src={"./image1.png"} />
 
         <PurpleCircle sx={{
           bottom:0,

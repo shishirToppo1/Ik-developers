@@ -1,10 +1,10 @@
 import React from 'react'
-import Image1 from "../Images/Ellipse 180.png"
+
 import { Typography } from '@mui/material'
 
 const PurpleCircle = ({ sx }) => {
     return (
-        <Typography variant='img' component="img" src={Image1}
+        <Typography variant='img' component="img" src={"./Ellipse_180.png"}
             sx={{
                 position: 'absolute',
                 zIndex: 0,

@@ -1,9 +1,13 @@
 import { Box, Container, Typography } from '@mui/material'
-import React from 'react'
+import React, { useState } from 'react'
 import Appbar from '../components/Appbar'
-import HeroSection from "../HeroSection/HeroSection"
+import HeroSection from '../components/HeroSection'
 import CustomCarousel from '../components/CustomCarousel'
 import PurpleCircle from '../components/PurpleCircle'
+    
+import Goal from '../components/Goal'
+import LogoList from '../components/LogoList'
+
 
 const Home = () => {
 
@@ -20,13 +24,13 @@ const Home = () => {
         },
         {
             icon: "",
-            title: "Mobile App Development",
+            title: "Web Development",
             content: "A website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digit age."
         },
         {
             icon: "",
-            title: "Mobile App Development",
-            content: "A website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digit age."
+            title: "Software Testing Service",
+            content: "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age."
         },
 
     ]
@@ -58,24 +62,8 @@ const Home = () => {
                 }}>Services we offer</Typography>
                 <CustomCarousel data={datas} />
             </Box>
-
-            <Box sx={{
-                background: "#FFFFFF",
-                height: "300px"
-            }}>
-
-                <PurpleCircle sx={{
-                    left: "5%",
-                    transform: "translateY(-50%)"
-                }} />
-
-            </Box>
-
-
-
-
-
-
+            <Goal/>
+            <LogoList/>
 
         </Box>
     )

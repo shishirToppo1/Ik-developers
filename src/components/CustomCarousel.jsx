@@ -4,6 +4,8 @@ import SwipeableViews from "react-swipeable-views";
 import { MobileStepper, Paper, Typography, Button, Box } from "@mui/material";
 import { KeyboardArrowLeft, KeyboardArrowRight } from "@mui/icons-material";
 
+
+
 const CustomCarousel = ({ data }) => {
     const [activeStep, setActiveStep] = useState(0);
     const maxSteps = data.length;
@@ -21,7 +23,10 @@ const CustomCarousel = ({ data }) => {
         <Box sx={{ p: 2, textAlign: "center" }}>
             <SwipeableViews index={activeStep} onChangeIndex={(index) => setActiveStep(index)}>
                 {data.map((item, index) => (
-                    <ServiceCard />
+                    <div key={index}>
+                        <Typography variant='h5'sx={{fontWeight:"bold"}}>{item.title}</Typography>
+                        <Typography variant='body2'>{item.content}</Typography>
+                    </div>
                 ))}
             </SwipeableViews>
             <MobileStepper

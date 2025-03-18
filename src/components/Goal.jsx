@@ -39,7 +39,8 @@ const Goal = () => {
                         height: "420px"
                     }}>
                         <Box sx={{
-                            border: "3px solid red",
+                            border: "3px solid purple",
+                            // borderBlockColor:linear-gradient( #57007B, #6675F7),
                             width: "69px"
                         }}></Box>
 
@@ -84,7 +85,7 @@ const Goal = () => {
 
 
                     <Box sx={{
-                        border: "3px solid red",
+                        border: "3px solid purple",
                         width: "69px"
                     }}></Box>
 
@@ -104,7 +105,7 @@ const Goal = () => {
             </Box>
             <PurpleCircle sx={{
           bottom:0,
-          right:"35%",
+          right:"40%",
           transform:'translateY(50%)',
         
         }}/>

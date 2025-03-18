@@ -2,38 +2,19 @@ import { Box, Container, Typography } from '@mui/material'
 import React, { useState } from 'react'
 import Appbar from '../components/Appbar'
 import HeroSection from '../components/HeroSection'
-import CustomCarousel from '../components/CustomCarousel'
-import PurpleCircle from '../components/PurpleCircle'
+import ServicesCarousel from '../components/ServicesCarousel'
+// import CustomCarousel from '../components/CustomCarousel'
+// import PurpleCircle from '../components/PurpleCircle'
     
 import Goal from '../components/Goal'
 import LogoList from '../components/LogoList'
+import Feedback from '../components/Feedback'
+import CaseStudies from '../components/CaseStudies'
+import GreatSoftware from'../components/GreateSoftware'
+// import DevelopmentApproach from '../components/DevelopmentApproach'
 
 
 const Home = () => {
-
-    const datas = [
-        {
-            icon: "",
-            title: "Mobile App Development",
-            content: "A website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digit age."
-        },
-        {
-            icon: "",
-            title: "Mobile App Development",
-            content: "A website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digit age."
-        },
-        {
-            icon: "",
-            title: "Web Development",
-            content: "A website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digit age."
-        },
-        {
-            icon: "",
-            title: "Software Testing Service",
-            content: "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age."
-        },
-
-    ]
 
     return (
         <Box sx={{
@@ -43,7 +24,7 @@ const Home = () => {
             <Appbar />
             {/* Hero Section */}
             <HeroSection />
-            {/* Carousel */}
+
             <Box
                 sx={{
                     border: "2px solid #E7DAED",
@@ -51,19 +32,17 @@ const Home = () => {
                     height: "602px",
                     position: "relative",
                     background: "#F9F9FF"
-                }}
-            >
-                <Typography sx={{
-                    marginTop: "46px",
-                    fontSize: "35px",
-                    lineHeight: "55px",
-                    fontWeight: 700,
-                    textAlign: "center"
-                }}>Services we offer</Typography>
-                <CustomCarousel data={datas} />
+                }}>
+
+                <ServicesCarousel/>
             </Box>
             <Goal/>
             <LogoList/>
+            <Feedback/>
+            <CaseStudies/>
+            <GreatSoftware/>
+            {/* <DevelopmentApproach/> */}
+          
 
         </Box>
     )

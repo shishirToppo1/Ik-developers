@@ -33,9 +33,9 @@ const Feedback = () => {
         justifyContent: "space-evenly"
       }}>
         {/* ist card */}
-        <Card sx={{ width: "121px", display: "flex", border: '1px solid red', flexDirection: 'column', justifyContent: "center", alignItems: "center" }}>
+        <Card sx={{ width: "121px", display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center" }}>
           <CardMedia >
-            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+            <Avatar sx={{ height:'100px',width:'100px'}} alt="Remy Sharp" src="avatar1.png" />
           </CardMedia>
           <Box>
             <StarRating />
@@ -48,9 +48,9 @@ const Feedback = () => {
         </Card>
 
         {/* 2nd card */}
-        <Card sx={{ width: "121px", display: "flex", border: '1px solid red', flexDirection: 'column', justifyContent: "center", alignItems: "center" }}>
+        <Card sx={{ width: "121px", display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center" }}>
           <CardMedia >
-            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+            <Avatar sx={{ height:'100px',width:'100px'}} alt="Remy Sharp" src="avatar2.png"/>
           </CardMedia>
           <Box>
             <StarRating />
@@ -63,9 +63,9 @@ const Feedback = () => {
         </Card>
 
         {/* 3rd card */}
-        <Card sx={{ width: "121px", display: "flex", border: '1px solid red', flexDirection: 'column', justifyContent: "center", alignItems: "center" }}>
+        <Card sx={{ width: "141px", display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center" }}>
           <CardMedia >
-            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+            <Avatar sx={{ height:'170px',width:'170px'}} alt="Remy Sharp" src="avatar3.png"/>
           </CardMedia>
           <Box>
             <StarRating />
@@ -77,9 +77,9 @@ const Feedback = () => {
           </CardContent>
         </Card>
         {/* forth card */}
-        <Card sx={{ width: "121px", display: "flex", border: '1px solid red', flexDirection: 'column', justifyContent: "center", alignItems: "center" }}>
+        <Card sx={{ width: "121px", display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center" }}>
           <CardMedia >
-            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+            <Avatar sx={{ height:'100px',width:'100px'}} alt="Remy Sharp" src="avatar4.png"/>
           </CardMedia>
           <Box>
             <StarRating />
@@ -92,9 +92,9 @@ const Feedback = () => {
         </Card>
 
         {/* fifth card */}
-        <Card sx={{ width: "121px", display: "flex", border: '1px solid red', flexDirection: 'column', justifyContent: "center", alignItems: "center" }}>
+        <Card sx={{ width: "121px", display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: "center" }}>
           <CardMedia >
-            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+            <Avatar sx={{ height:'100px',width:'100px'}} alt="Remy Sharp" src="avatar4.png"/>
           </CardMedia>
           <Box>
             <StarRating />

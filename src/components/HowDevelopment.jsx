@@ -99,21 +99,21 @@ const HowDevelopment = () => {
         <Box sx={{ display: "flex", justifyContent: "space-around" }}>
           <Box
             sx={{
-              border: "2px solid purple",
+              border: "2px solid orange",
               height: "20px",
               width: "0px",
             }}
           />
           <Box
             sx={{
-              border: "2px solid purple",
+              border: "2px solid orange",
               height: "20px",
               width: "0px",
             }}
           />
           <Box
             sx={{
-              border: "2px solid purple",
+              border: "2px solid orange",
               height: "20px",
               width: "0px",
             }}
@@ -122,7 +122,7 @@ const HowDevelopment = () => {
         {/* main line */}
         <Box
           sx={{
-            border: "2px solid purple",
+            border: "2px solid orange",
             width: "100%",
           }}
         />
@@ -139,7 +139,7 @@ const HowDevelopment = () => {
         >
           <Box
             sx={{
-              border: "2px solid purple",
+              border: "2px solid orange",
               height: "20px",
               width: "0px",
             }}
@@ -147,7 +147,7 @@ const HowDevelopment = () => {
           {/* Middle */}
           <Box
             sx={{
-              border: "2px solid purple",
+              border: "2px solid orange",
               height: "20px",
               width: "0px",
               marginLeft: "50px",
@@ -157,7 +157,7 @@ const HowDevelopment = () => {
           {/* End */}
           <Box
             sx={{
-              border: "2px solid purple",
+              border: "2px solid orange",
               height: "20px",
               width: "0px",
               justifySelf: "flex-end",

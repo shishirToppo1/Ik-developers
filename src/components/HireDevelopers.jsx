@@ -154,7 +154,7 @@ function HireDevelopers() {
         </Box>
 
         <Box>
-            <Typography sx={{mb:"10px"}}>Links</Typography>
+            <Typography sx={{mb:"10px", fontWeight: "bold"}}>Links</Typography>
             <Typography>About</Typography>
             <Typography>Services</Typography>
             <Typography>case Studies</Typography>
@@ -164,8 +164,8 @@ function HireDevelopers() {
             <Typography>Areas We Serve</Typography>
         </Box>
 
-        <Box>
-          <Typography>Contact us </Typography>
+        <Box sx={{width:"300px"}}>
+          <Typography sx={{mb:"10px", fontWeight: "bold"}}>Contact us </Typography>
           <Typography>Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.</Typography>
           <Typography>+92318356921</Typography>
